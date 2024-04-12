@@ -1,0 +1,38 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .btn-blue {
+    width: auto; 
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-blue {
+    display: inline-block; 
+    width: auto; 
+    margin-right: 10px; 
+    margin-bottom: 0;
+  }
+}

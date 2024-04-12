@@ -1,0 +1,10 @@
+.avatar {
+  width: 270px;
+  height: 270px;
+  border-radius: 5%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
